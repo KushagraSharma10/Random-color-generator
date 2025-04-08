@@ -6,4 +6,6 @@ btn.addEventListener('click', () => {
     const G = Math.floor(Math.random() * 256)
     const B = Math.floor(Math.random() * 256)
     box.style.backgroundColor  = `rgb(${R}, ${G}, ${B})`
+    box.style.boxShadow = `0 0 10px rgb(${R}, ${G}, ${B})`
+    box.style.border = `2px solid rgb(${R}, ${G}, ${B})`
 })
